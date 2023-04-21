@@ -1,0 +1,40 @@
+.dark-theme {
+    background-color: rgb(131, 116, 116);
+}
+.white-theme {
+    color: #333333;
+    background-color: #eae9f2;
+}
+p {
+    font-weight: 600;
+}
+body {
+    width: 90%; 
+    margin: 0 auto !important;
+    margin-top: 10px;
+}
+
+.btn-outline-secondary {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.list-group-item:hover {
+    background-color: aqua;
+
+}
+.addWhite {
+    background-color: #eae9f2;
+}
+.delete {
+    color: red;
+    margin: 5px;
+    user-select: none; 
+    cursor: pointer;
+}
+.list-group-item {
+    width: 400px;
+    overflow:hidden;
+}
+.done:checked + .list-group-item {
+    text-decoration: line-through !important;
+}
